@@ -9,7 +9,7 @@
   <meta name="description" content="前言很高兴遇见你~ Https现在基本已经覆盖所有的http请求了，作为一个伟大的发明，保障了我们的通信安全。在Android中对于HTTPS其实感知不多，因为这些内容都有成熟的框架帮我们完成了，例如okHttp。我们发起一个http或https的请求几乎感受不到区别。 但最近在研究okHttp的源码的时候，发现很多的内容没看懂，最后发现是http相关的网络知识不扎实，再一次回过头来，把https">
 <meta property="og:type" content="article">
 <meta property="og:title" content="https原理解析">
-<meta property="og:url" content="http://example.com/2021/03/10/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/index.html">
+<meta property="og:url" content="http://example.com/2019/03/16/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="前言很高兴遇见你~ Https现在基本已经覆盖所有的http请求了，作为一个伟大的发明，保障了我们的通信安全。在Android中对于HTTPS其实感知不多，因为这些内容都有成熟的框架帮我们完成了，例如okHttp。我们发起一个http或https的请求几乎感受不到区别。 但最近在研究okHttp的源码的时候，发现很多的内容没看懂，最后发现是http相关的网络知识不扎实，再一次回过头来，把https">
 <meta property="og:locale" content="en_US">
@@ -25,8 +25,8 @@
 <meta property="og:image" content="https://i.loli.net/2021/03/01/dqpijUub65eCM3D.png">
 <meta property="og:image" content="https://i.loli.net/2021/03/01/uBkL25VQrRaNiyw.png">
 <meta property="og:image" content="https://i.loli.net/2021/03/01/1EAot4BQ6Hwg9ip.png">
-<meta property="article:published_time" content="2021-03-10T05:27:04.000Z">
-<meta property="article:modified_time" content="2021-03-10T05:55:21.781Z">
+<meta property="article:published_time" content="2019-03-16T05:27:04.000Z">
+<meta property="article:modified_time" content="2021-03-10T05:57:08.908Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.loli.net/2021/03/01/oOEkhMKzetRmfIs.png">
@@ -88,8 +88,8 @@
       <div class="outer">
         <section id="main"><article id="post-https原理解析" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2021/03/10/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/" class="article-date">
-  <time class="dt-published" datetime="2021-03-10T05:27:04.000Z" itemprop="datePublished">2021-03-10</time>
+    <a href="/2019/03/16/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/" class="article-date">
+  <time class="dt-published" datetime="2019-03-16T05:27:04.000Z" itemprop="datePublished">2019-03-16</time>
 </a>
     
   </div>
@@ -267,7 +267,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/03/10/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/" data-id="ckm313d2o000008if4cbabqoa" data-title="https原理解析" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2019/03/16/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/" data-id="ckm313d2o000008if4cbabqoa" data-title="https原理解析" class="article-share-link">Share</a>
       
       
       
@@ -277,10 +277,19 @@
     
 <nav id="article-nav">
   
+    <a href="/2021/03/10/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hello World
+        
+      </div>
+    </a>
   
-    <a href="/2021/03/10/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/2019/03/10/%E7%AC%AC%E4%B8%80%E7%AF%87/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">第一篇</div>
     </a>
   
 </nav>
@@ -318,11 +327,11 @@
       <ul>
         
           <li>
-            <a href="/2021/03/10/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/">https原理解析</a>
+            <a href="/2021/03/10/hello-world/">Hello World</a>
           </li>
         
           <li>
-            <a href="/2021/03/10/hello-world/">Hello World</a>
+            <a href="/2019/03/16/https%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90/">https原理解析</a>
           </li>
         
           <li>
